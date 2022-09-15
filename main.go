@@ -14,7 +14,7 @@ func main() {
   fmt.Println("Total Belanja:")
   fmt.Scanf("%d", &bill)
 
-  fmt.Println("Diskon: 25%")
+  fmt.Println("Diskon: 25%!s") 
   fmt.Scanf("%d", &discount)
   if bill >= 50000 {
 	discount = 25
